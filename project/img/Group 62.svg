@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="524.889" height="254.889" viewBox="0 0 524.889 254.889">
+  <defs>
+    <filter id="Rectangle_18" x="0" y="0" width="524.889" height="254.889" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.852" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.148" result="blur"/>
+      <feFlood flood-opacity="0.004"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_62" data-name="Group 62" transform="translate(-757.556 -3223.407)">
+    <g transform="matrix(1, 0, 0, 1, 757.56, 3223.41)" filter="url(#Rectangle_18)">
+      <g id="Rectangle_18-2" data-name="Rectangle 18" transform="translate(11.44 9.59)" fill="none" stroke="#f7f7f7" stroke-width="2">
+        <rect width="502" height="232" rx="10" stroke="none"/>
+        <rect x="-1" y="-1" width="504" height="234" rx="11" fill="none"/>
+      </g>
+    </g>
+    <text id="_On_the_Windows_talking_painted_pasture_yet_its_express_parties_use._Sure_last_upon_he_same_as_knew_next._Of_believed_or_diverted_no._" data-name="“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”" transform="translate(803 3249)" fill="#4e4e73" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="17">“On the Windows talking painted pasture yet its </tspan><tspan x="0" y="49">express parties use. Sure last upon he same as knew </tspan><tspan x="0" y="81">next. Of believed or diverted no.”</tspan></text>
+    <text id="Chris_Thomas" data-name="Chris Thomas" transform="translate(803 3389)" fill="#5e6282" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="19">Chris Thomas</tspan></text>
+    <text id="CEO_of_Red_Button" data-name="CEO of Red Button" transform="translate(803 3422)" fill="#5e6282" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">CEO of Red Button</tspan></text>
+  </g>
+</svg>

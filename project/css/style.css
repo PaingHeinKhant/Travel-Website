@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap'); 
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+
+.text-2{
+    font-size: 70px;
+}
+
+.site-nav{
+    position: absolute;
+    top: 0;
+}
+
+/* Home section */
+
+.color{
+    color: #181E4B;
+}
+
+.playbtn{
+    margin: 12px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content-1photo{
+    width: 100%;
+}
+
+.flight-photo{
+    background-image: url("../img/plane.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30%;
+}
+
+.sat-1{
+    background-image: url(/project/img/sate\ -1.svg);
+    background-repeat: no-repeat;
+}
+
+.aer{
+    background-image: url(/project/img/aero-1.svg);
+    background-repeat: no-repeat;
+}
+
+.vocal{
+    background-image: url(/project/img/vocal\ -1.svg);
+    background-repeat: no-repeat;
+    background-position: top r;
+}
+
+.setting{
+    background-image: url(/project/img/setting-1.svg);
+    background-repeat: no-repeat;
+}
+
+.photo1{
+    width:30%;
+    height: 30%;
+}
+
+.photo2{
+    width: 50%;
+    height: 30%;
+}
+
+.card-round{
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+}
+
+.card-round:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heo{
+    background-image: url("../img/Group\ 4.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 10%;
+}
+
+
+.home{
+    background-image: url("../img/first\ photo.svg"), url("../img/second.svg");
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% ,20%;
+
+}
+
+.card-img-top{
+    width: 100%;
+    height: 60%;
+
+}
+
+.card-b{
+    font-size: 15px;
+}
+
+.card-2{
+    border-radius: 5%;
+    overflow: hidden;
+    border: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+
+.card-2:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    width: 300px;
+    height: 300px ;
+    object-fit: cover ;
+
+
+}
+
+.enjoy{
+    background-image: url("../img/Rectangle\ 36.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 120% 25%;
+}
+
+.plane{
+   background-image: url("../img/plane.svg");
+   background-repeat: no-repeat;
+   background-position: 50% 20%;
+   background-size: 10%;
+}
+
+.plane2{
+   background-image: url("../img/plane.svg");
+   background-repeat: no-repeat;
+   background-position: 100% 40%;
+   background-size: 10%;
+}
+
+.some{
+    background-image: url("../img/Decoree3.svg");
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: 88% 400px;
+}
+
+
+/* Book Your Next Trip  */
+
+.fz{
+    font-size: 50px;
+}
+
+.book-section-2{
+    
+}
+
+.book1{
+    position: absolute;
+    top: 20%;
+    filter: drop-shadow(40px 5px 50px #59B1E6);
+}
+
+.book2{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.heart{
+    position: absolute;
+    top: 93%;
+    left: 60%;
+}
+
+/* Testimonials */
+
+.arrowd{
+    position: absolute;
+    top: 30%;
+}
+
+.slick-dots{
+    display: flex !important;
+
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px !important;
+}
+
+.slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent !important;
+    border: 2px solid #39425D !important;
+    border-radius: 50% !important;
+}
+
+.slick-dots li.slick-active{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #39425D !important;
+}
+
+.slick-next{
+
+}
+
+#next{
+    font-size: 50px;
+}
+
+#perious{
+    font-size: 50px;
+}
+
+#top-slider{
+    width:100%;
+}
+
+.patana{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pata-gp{
+    align-items: center;
+    justify-content: center;
+}
+
+.sponser{
+    margin:40px 0 10px;
+    
+}
+
+/* subscribe section */
+
+.email-box{
+    padding: 15px 80px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+}
+
+.telegram{
+    background-image: url('/project/img/Group\ 77.svg');
+    background-repeat: no-repeat;
+    background-position: 92% 19%;
+    background-size: 10%;
+
+}
+
+.sport{
+    background-image: url('/project/img/sport.svg');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 99% 80%;
+
+}
+
+.dec{
+    background-image: url('/project/img/line1.svg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 3% 58%;
+    
+}
+
+.line2{
+    background-image: url('/project/img/line2.svg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 98% 9%;
+}
+
+.sub{  
+    padding: 100px 200px;
+    background-color: #DFD7F950;
+    border-radius: 140px 30px 40px 20px;   
+}
+
+.icons{
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.f-icon{
+    justify-content: space-around;
+}
+
+/* Mobile Phone section */
+
+@media screen and (max-width: 414px) {
+    .ph-content{
+        margin-top: 80px;
+    }
+    .plane{
+        background-image: url("../img/plane.svg");
+        background-repeat: no-repeat;
+        background-position: 20% 20%;
+        background-size: 30%;
+     }
+     .plane2{
+        background-image: url("../img/plane.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 30%;
+        background-size: 20%;
+     }
+     .enjoy{
+        background-image: url("../img/Rectangle\ 36.svg");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: 200% 25%;
+    }
+    .text-2{
+        font-size: 60px;
+    }
+
+    /* section2 */
+    .heo{
+        background-size: 30%;
+        margin-top: 50px;
+    }
+
+    .sat{
+        width: 300px!important;
+        margin: auto;
+    }
+    .sat-1{
+        margin-bottom: 30px;
+        
+       
+    }
+    /* Book Your Next Trip */
+    .book2{
+        position: relative;
+        top: 240px !important;
+        left: 50px !important;
+    }
+
+    .heart{
+        position: absolute;
+        top: 95% !important;
+        left: 60% !important;
+    }
+
+
+    .ph-padding{
+        margin-left: 20px;
+    }
+    
+    /* Top-des */
+    .card-2{
+        width: 300px!important;
+        overflow: hidden;
+        margin: 30px auto;
+    }
+
+    /* Testimonials */
+    .tesmargin{
+        margin-top:150px;
+    }
+    .arrowd{
+        display: none;
+    }
+    /* subscribe section */
+    .email-box{
+    padding: 10px 60px !important;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 30px auto;
+    }
+
+    #top-slider{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    
+.dec{
+    background-size: 50%;
+    background-position: -10% 72%;
+    
+}
+
+.line2{
+    background-size: 30%;
+    background-position: 93% 40%;
+}
+
+.telegram{
+    background-position: 40% 35%;
+    background-size: 30%;
+
+}
+
+.sport{
+    background-size: 40%;
+}
+
+.card{
+    width: 50%;
+}
+
+.sub{  
+    padding: 50px 50px;
+    background-color: #DFD7F950;
+    border-radius: 140px 30px 40px 20px;  
+    margin: 0 auto; 
+}
+
+
+  } 
+
+
+/* Tablet Section */
+@media screen and (max-width: 1024px){
+   /* Home Section */
+    .ph-content{
+        margin-top: 80px;
+    }
+    .plane{
+        background-position: 20% 20%;
+        background-size: 20%;
+     }
+     .plane2{
+        background-position: 100% 30%;
+        background-size: 15%;
+     }
+     .enjoy{
+        background-size: 90%;
+        background-position: 0% 30%;
+    }
+    .text-2{
+        font-size: 60px;
+    }
+    .playdemo{
+        margin-top:20px;
+    }
+
+    /* Top-des */ 
+    .card-2{
+        width: 300px!important;
+        overflow: hidden;
+        margin: 30px auto;
+    }
+
+    /* Book Your Next Trip */
+    .book2{
+        position: relative;
+        top: 450px;
+        left: -10px;
+    }
+
+    .heart{
+        position: absolute;
+        top: 41%;
+        left: 60%;
+    }
+
+    .ph-padding{
+        margin-left: 20px;
+    }
+
+    /* Testimonials */
+
+    .patana{
+        width: 75%;
+    }
+
+    /* subscribe section */
+    .email-box{
+        padding: 10px 80px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin: 30px 20px;
+        }
+    
+        #top-slider{
+            margin: 0 auto;
+            width: 80%;
+        }
+    
+        
+    .dec{
+        background-size: 30%;
+        background-position: 2% 58%;
+        
+    }
+    
+    .line2{
+        background-size: 30%;
+        background-position: 96% 40%;
+    }
+    
+    .telegram{
+        background-position: 40% 35%;
+        background-size: 25%;
+    
+    }
+    
+    .sport{
+        background-size: 20%;
+    }
+    
+    .card{
+        width: 50%;
+    }
+    
+    .sub{  
+        padding: 50px 50px;
+        background-color: #DFD7F950;
+        border-radius: 140px 30px 40px 20px;   
+    }
+    
+    
+    
+
+  }
